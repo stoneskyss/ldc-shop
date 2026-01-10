@@ -80,12 +80,7 @@
 **解决方案：**
 部署后，请务必在 Vercel控制台绑定一个**自定义域名**（如 `store.yourdomain.com`），并使用该域名配置 `NEXT_PUBLIC_APP_URL` 和支付平台的通知地址。
 
-## ⚠️ 重要：关于退款拦截问题 (Refund WAF Issue)
 
-Linux DO Credit 的退款 API 受到 Cloudflare WAF 的严格保护，直接从服务器端发起请求可能会被拦截（报错 403 Forbidden）。
-
-**目前的临时解决方案：**
-本项目采用了**客户端 API 调用方案**（通过 Form 表单提交）。当管理员点击退款按钮时，会打开新标签页并由浏览器直接调用 Linux DO Credit 的退款 API。管理员需确认 API 返回成功后，返回本系统点击"标记已退款"来更新订单状态。
 
 ## ⚙️ 配置指南
 

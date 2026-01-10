@@ -67,12 +67,7 @@ Resulting from the shared nature of `vercel.app` domains, they are often flagged
 **Solution:**
 After deployment, you MUST bind a **Custom Domain** (e.g., `store.yourdomain.com`) in the Vercel dashboard and use this domain for `NEXT_PUBLIC_APP_URL` and the payment gateway notification URL.
 
-## ⚠️ Important: Refund WAF Issue
 
-The Refund API of Linux DO Credit is strictly protected by Cloudflare WAF. Direct server-side requests may be blocked (403 Forbidden).
-
-**Current Workaround:**
-This project uses a **Client-side API call** solution (via Form submission). When an admin clicks the "Refund" button, it opens a new tab and the browser directly calls the Linux DO Credit Refund API. After confirming success from the API response, the admin returns to the system and clicks "Mark Refunded" to update the order status.
 
 ## ⚙️ Configuration Guide
 
