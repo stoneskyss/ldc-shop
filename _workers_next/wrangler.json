@@ -3,6 +3,7 @@
     "main": ".open-next/worker.js",
     "keep_names": true,
     "compatibility_date": "2026-01-18",
+    "keep_vars": true,
     "compatibility_flags": [
         "nodejs_compat"
     ],
