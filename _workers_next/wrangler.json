@@ -3,7 +3,7 @@
     "main": "worker-entry.mjs",
     "keep_names": true,
     "keep_vars": true,
-    "compatibility_date": "2026-01-18",
+    "compatibility_date": "2024-10-01",
     "compatibility_flags": [
         "nodejs_compat"
     ],
