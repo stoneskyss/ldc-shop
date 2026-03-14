@@ -14,7 +14,7 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "ldc-shop-next"，
+            "database_name": "ldc-shop-next",
 			"database_id": "98be0017-441b-4ee7-851d-fbdc2420a975"
         }
     ],
